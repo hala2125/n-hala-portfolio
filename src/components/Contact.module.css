@@ -140,22 +140,15 @@
 @media (max-width: 992px) {
   .content {
     grid-template-columns: 1fr;
-    gap: 5rem;
+    gap: 4rem;
     text-align: center;
   }
+
   .social {
     justify-content: center;
   }
-  .right {
-    padding: 2.5rem;
-  }
-}
 
-@media (max-width: 576px) {
-  .title {
-    font-size: 2.5rem;
-  }
-  .submitBtn {
-    width: 100%;
+  .right {
+    padding: 2rem;
   }
 }

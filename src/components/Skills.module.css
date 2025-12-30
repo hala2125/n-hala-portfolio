@@ -126,32 +126,24 @@
   font-weight: 500;
 }
 
+
+
 @media (max-width: 992px) {
   .skillsGrid {
-    grid-template-columns: 1fr;
-    gap: 6rem;
+    grid-template-columns: 1fr; /* تحت بعض في الموبايل */
+    gap: 4rem;
   }
-  .circles {
-    gap: 3rem;
-  }
-  .circle {
-    width: 140px;
-    height: 140px;
-  }
-  .percentage {
-    font-size: 1.8rem;
-  }
-}
 
-@media (max-width: 576px) {
-  .title {
-    font-size: 2.5rem;
+  .circles {
+    gap: 2.5rem;
   }
-  .categoryTitle {
-    font-size: 2rem;
-  }
+
   .circle {
     width: 120px;
     height: 120px;
+  }
+
+  .percentage {
+    font-size: 1.6rem;
   }
 }
