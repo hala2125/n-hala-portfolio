@@ -38,7 +38,7 @@
   text-shadow: 0 0 15px rgba(187, 134, 252, 0.8);
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .navbar { padding: 1rem 2rem; }
   .links { gap: 1.5rem; }

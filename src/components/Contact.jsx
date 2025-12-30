@@ -34,7 +34,7 @@ function Contact() {
             </div>
 
             <div className={styles.social}>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://linkedin.com/in/bh.nadine" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               <a href="https://github.com/hala2125" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a href="https://www.instagram.com/bh.nadine" target="_blank" rel="noopener noreferrer">instagram</a>
             </div>
