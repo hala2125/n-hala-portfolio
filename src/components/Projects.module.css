@@ -1,0 +1,124 @@
+.projects {
+  min-height: 100vh;
+  background: #0a0a0a;
+  padding: 8rem 2rem 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: #bb86fc;
+  margin-bottom: 4rem;
+  text-shadow: 0 0 20px rgba(187, 134, 252, 0.6);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+}
+
+.card {
+  background: rgba(20, 20, 30, 0.6);
+  border: 1px solid rgba(187, 134, 252, 0.3);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.4s;
+  backdrop-filter: blur(10px);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 40px rgba(187, 134, 252, 0.4);
+  border-color: #bb86fc;
+}
+
+.cardTitle {
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #cccccc;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.tech {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.badge {
+  background: rgba(187, 134, 252, 0.2);
+  color: #bb86fc;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  border: 1px solid rgba(187, 134, 252, 0.4);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.link, .linkDemo {
+  color: #bb86fc;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #bb86fc;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+.link:hover, .linkDemo:hover {
+  background: #bb86fc;
+  color: #0a0a0a;
+  box-shadow: 0 0 20px rgba(187, 134, 252, 0.7);
+}
+
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+}
+.imageContainer {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px 12px 0 0;
+  margin-bottom: 1.5rem;
+}
+
+.projectImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: transform 0.4s ease;
+}
+
+.card:hover .projectImage {
+  transform: scale(1.1); 
+}
+
+.card:hover {
+  box-shadow: 0 0 40px rgba(187, 134, 252, 0.5); 
+}
