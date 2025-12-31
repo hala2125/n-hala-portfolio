@@ -138,9 +138,10 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 3.5rem;                  
     justify-items: center;         
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;                
     padding: 0;
+    box-sizing: border-box;
   }
 
   .circleItem {
@@ -164,10 +165,11 @@
 
 
   .bars {
-    max-width: 85%;             
+    max-width: 100%;             
     margin: 0 auto;                
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     width: 100%;
+    box-sizing: border-box;
   }
 
   .label {
