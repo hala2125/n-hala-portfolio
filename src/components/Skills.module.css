@@ -140,6 +140,8 @@
   .circle {
     width: 100px;
     height: 100px;
+    margin: 0 auto;           
+    padding: 0 1rem; 
   }
 
   .percentage {
@@ -151,7 +153,10 @@
   }
 
   .bars {
-    gap: 1rem;
+    max-width: 90%;           
+    margin: 0 auto;           
+    padding: 0 1rem;          
+    width: 100%;
   }
 
   .label {
@@ -171,6 +176,10 @@
 
   .percentage {
     font-size: 1.4rem;
+  }
+  .bars {
+    max-width: 95%;
+    padding: 0 0.5rem;
   }
 }
 
