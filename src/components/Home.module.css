@@ -86,8 +86,9 @@
   width: 420px;
   height: 420px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(187, 134, 252, 0.5), transparent 70%);
-  box-shadow: 0 0 100px rgba(187, 134, 252, 0.8);
+  /*background: radial-gradient(circle, rgba(187, 134, 252, 0.5), transparent 70%);
+  box-shadow: 0 0 100px rgba(187, 134, 252, 0.8);*/
+  
   z-index: -1;
 }
 
@@ -98,6 +99,7 @@
   object-fit: cover;
   border: 6px solid #bb86fc;
   box-shadow: 0 0 80px rgba(187, 134, 252, 1);
+  
 }
 
 
