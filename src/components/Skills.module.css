@@ -135,13 +135,13 @@
   .circles {
     gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
+    padding: 0 3rem;   
   }
 
   .circle {
     width: 100px;
     height: 100px;
-    margin: 0 auto;           
-    padding: 0 1rem; 
+    
   }
 
   .percentage {
@@ -155,7 +155,7 @@
   .bars {
     max-width: 90%;           
     margin: 0 auto;           
-    padding: 0 1rem;          
+    padding: 0 3rem;          
     width: 100%;
   }
 
