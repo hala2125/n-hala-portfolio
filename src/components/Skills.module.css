@@ -126,7 +126,7 @@
   font-weight: 500;
 }
 
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
   .skillsGrid {
     grid-template-columns: 1fr;    
     gap: 5rem;
@@ -177,7 +177,7 @@
   }
 }
 
-/*@media (max-width: 576px) {
+@media (max-width: 576px) {
   .circles {
     gap: 3rem;
     max-width: 95%;
@@ -205,13 +205,63 @@
     font-size: 1.2rem;
   }
 }*/
-@media (max-width: 576px) {
+@media (max-width: 992px) {
+  .skillsGrid {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    justify-items: center;
+  }
 
   .circles {
-    gap: 3rem;
-    max-width: 95%;
-    margin: 0 auto;    
-    justify-items: center; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .circleItem {
+    text-align: center;
+  }
+
+  .circle {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+  }
+
+  .percentage {
+    font-size: 1.7rem;
+  }
+
+  .circleLabel {
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+  }
+
+  .bars {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .label {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .circles {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    max-width: 320px;
+    margin: 0 auto;
   }
 
   .circle {
@@ -227,35 +277,13 @@
     font-size: 1.1rem;
   }
 
-
   .bars {
-    max-width: 95%;
-    padding: 0 1rem;
-    margin: 0 auto;     
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-  }
-
-  .barItem {
-    width: 100%;          
-    max-width: 300px;    
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-    margin-bottom: 1rem;
+    max-width: 90%;
+    margin: 0 auto;
   }
 
   .label {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;  
     font-size: 1.2rem;
-    color: #cccccc;
-    margin-bottom: 0.5rem;
-  }
-
-  .progressContainer {
-    width: 100%;          
+    text-align: center;
   }
 }
