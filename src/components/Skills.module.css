@@ -148,7 +148,8 @@
   gap: 3rem;
   width: 100%;
   max-width: 420px;
-  margin: 0 auto;
+  Margin-right:30px;
+  
   place-items: center;
 }
 
@@ -161,7 +162,7 @@
   .circle {
     width: 130px;
     height: 130px;
-    margin: 0 auto;
+  
   }
 
   .percentage {
@@ -175,7 +176,8 @@
 .bars {
   width: 100%;
   max-width: 500px;
-  margin: 0 auto;
+  Margin-right:30px;
+/*  margin: 0 auto;*/
 }
 
   
