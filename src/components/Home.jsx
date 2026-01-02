@@ -13,7 +13,7 @@ function Home() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2 }}
         >
-          <motion.h2 className={styles.subtitle} transition={{ delay: 0.3 }}>Junior React Developer</motion.h2>
+          <motion.h2 className={styles.subtitle} transition={{ delay: 0.3 }}>Junior Full-stuck Developer</motion.h2>
           <motion.h1 className={styles.title} transition={{ delay: 0.6 }}>n.hala</motion.h1>
           <motion.p className={styles.bio} transition={{ delay: 0.9 }}>
             Building modern web experiences with creativity and technology.<br />
