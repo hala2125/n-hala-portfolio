@@ -190,6 +190,7 @@
     gap: 2.5rem;
     max-width: 320px;
     margin: 0 auto;
+    padding-right: 3rem;
   }
 
   .circle {
@@ -206,7 +207,7 @@
   }
 
   .bars {
-    max-width: 90%;   padding-right: 2rem;
+    max-width: 90%;   padding-right: 3rem;
     margin: 0 auto;
   }
 
